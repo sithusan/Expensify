@@ -8,6 +8,8 @@ import AppRouter from './routes/AppRouter'
 import { AddExpense } from './actions/expenses'
 import getVisibleExpense from './selectors/expenses';
 import { setTextFilter } from './actions/filters';
+import './firebase/firebase';
+import './playground/promises'
 
 const store = configureStore();
 store.dispatch(AddExpense({ description: 'Water Bill', note: 'water', amount: 1000, createdAt: 2000 }));
