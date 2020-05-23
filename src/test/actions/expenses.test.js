@@ -1,4 +1,4 @@
-import { AddExpense, RemoveExpense, editExpense } from '../actions/expenses'
+import { AddExpense, RemoveExpense, editExpense } from '../../actions/expenses'
 
 test('should setup remove expense action object', () => {
     const action = RemoveExpense({ id: '123abc' });
