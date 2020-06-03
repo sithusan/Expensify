@@ -1,11 +1,9 @@
 import React from 'react'
 import moment from 'moment'
-import 'react-dates/lib/css/_datepicker.css'
 
 export default class ExpenseFrom extends React.Component {
     constructor(props) {
         super(props);
-        { console.log(props.expense) }
         this.state = {
             description: props.expense ? props.expense.description : '',
             note: props.expense ? props.expense.note : '',
