@@ -32,7 +32,7 @@
     "jest": "20.0.4",
     "live-server": "^1.2.1",
     "moment": "2.18.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "normalize.css": "7.0.0",
     "raf": "3.3.2",
     "react": "15.6.1",
